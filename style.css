@@ -382,7 +382,6 @@ body .modal .modal-panel .modal-choice .modal-choice-frame .modal-choice-select 
   color: var(--blue);
 }
 body .modal .modal-panel .modal-choice .modal-choice-frame .modal-choice-select .modal-img {
-  width: 1fr;
   min-height: 300px;
   border: solid 2px rgb(0, 0, 0);
   border-radius: 5px;
@@ -412,9 +411,6 @@ body .modal .modal-panel .modal-choice .modal-choice-frame .modal-choice-select 
   color: var(--orange);
   border-color: var(--orange);
   box-shadow: 3px 3px 2px;
-}
-body .modal .modal-panel .modal-choice .modal-choice-frame .modal-choice-select .modal-choice-btn:active {
-  box-shadow: inset;
 }
 body .modal .modal-panel .modal-choice .modal-choice-frame .modal-choice-select:hover h3 {
   color: var(--orange);
@@ -615,7 +611,7 @@ body .container .h2__text {
   gap: 20px;
 }
 body .container .h2__text > h2 {
-  padding: 20px calc(max-width);
+  padding: 20px;
   max-width: 1920px;
   min-height: 84px;
   justify-content: center;
